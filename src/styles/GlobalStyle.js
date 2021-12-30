@@ -11,10 +11,10 @@ const GlobalStyles = createGlobalStyle`
     --beige: #99857F;
     --deep-dark: #1E1E1E;
     --white : white;
-    --black: black;
+    --light-blue: #143745;
   }
   html{
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Roboto Mono';
     background-color: var(--dark-bg);
   }
@@ -24,7 +24,11 @@ const GlobalStyles = createGlobalStyle`
   a{
     text-decoration: none;
   }
-
+  svg {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 `;
 export default GlobalStyles;
