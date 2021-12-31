@@ -6,7 +6,7 @@ const projects = [
       name: 'QuizJS',
       desc:
         'A fullstack quiz application to test your knowledge in Javascript, React, and HTML/CSS. Created with React and Material UI for frontend and Firebase for backend.',
-      img: 'https://res.cloudinary.com/orawee/image/upload/v1640984350/Screen_Shot_2021-12-31_at_12.57.33_PM_b5fjx8.png',
+      img: 'https://res.cloudinary.com/orawee/image/upload/v1640990691/Screen_Shot_2021-12-31_at_2.44.35_PM_hilinb.png',
     },
     {
       id: uuidv4(),
