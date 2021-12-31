@@ -29,6 +29,11 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
     object-fit: cover;
   }
+  .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
 
 `;
 export default GlobalStyles;
