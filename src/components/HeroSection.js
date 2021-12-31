@@ -36,7 +36,7 @@ export default function HeroSection() {
           </h1>
           <div className="hero-img">
             <img
-              src="https://res.cloudinary.com/orawee/image/upload/v1634151541/LRG_DSC04871_tmmos2.jpg"
+              src="https://res.cloudinary.com/orawee/image/upload/v1640912321/IMG_FF68CBED7018-1_hjnpkj.jpg"
               alt=""
             />
           </div>
@@ -46,7 +46,7 @@ export default function HeroSection() {
               able to combine logic and creativity to develop and solve problems
               is fun!
             </PText>
-            <Button btnLink="/projects" btnText="See my works"/>
+            <Button btnLink="/projects" btnText="See my works" />
           </div>
         </div>
       </div>

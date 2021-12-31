@@ -33,7 +33,7 @@ const NavMenuStyles = styled.div`
       outline: none;
     }
     .active {
-      color: var(--white);
+      color: var(--teal);
     }
   }
   .mobile-menu-icon {

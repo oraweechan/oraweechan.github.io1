@@ -9,9 +9,8 @@ const GlobalStyles = createGlobalStyle`
   :root{
     --dark-bg: #162933;
     --beige: #99857F;
-    --deep-dark: #1E1E1E;
-    --white : white;
-    --light-blue: #143745;
+    --teal : #52BA97;
+    --pink : #D288A3
   }
   html{
     font-size: 10px;
