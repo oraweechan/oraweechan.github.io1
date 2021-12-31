@@ -5,7 +5,8 @@ import SocialMediaArrow from "../img/social-media-arrow.svg";
 import ScrollDownArrow from "../img/scroll-down-arrow.svg";
 
 const HeroStyles = styled.div`
-  .hero {
+.hero {
+    height: 100vh;
     min-height: 1000px;
     width: 100%;
     text-align: center;
@@ -16,28 +17,30 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -3rem;
+    margin-bottom: -4rem;
     position: relative;
     span {
       display: inline-block;
       width: 100%;
     }
     .hero__name {
-      font-family: "Montserrat SemiBold";
-      font-size: 5rem;
+      font-family: 'Montserrat SemiBold';
+      font-size: 7rem;
       color: var(--pink);
     }
   }
   .hero__img {
-    img {
-      max-width: 700px;
-      width: 100%;
-      margin: 0 auto;
-      border: 2px solid var(--pink);
-    }
+      img{
+        max-width: 900px;
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        border: 2px solid var(--pink);
+      }
+    
   }
   .hero__info {
-    margin-top: -4rem;
+    margin-top: 10rem;
   }
   .hero__social,
   .hero__scrollDown {
@@ -61,7 +64,7 @@ const HeroStyles = styled.div`
     width: 50px;
     p {
       font-size: 1.6rem;
-      transform: translateY(-80px) rotate(90deg);
+      transform: translateY(-70px) rotate(90deg);
       letter-spacing: 0.7rem;
       text-transform: uppercase;
     }
@@ -95,27 +98,27 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .hero {
-      min-height: 600px;
+      min-height: 750px;
     }
     .hero__heading {
       font-size: 1.4rem;
-      margin-bottom: -.2rem;
+      margin-bottom: 1rem;
       .hero__name {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
       }
     }
     .hero__img {
-      img {
-        height: 100%;
-        width: 100%;
-      }
+        img{
+            height: 100%;
+        }
+      
     }
     .hero__info {
-      margin-top: 1rem;
+      margin-top: 5rem;
     }
     .hero__social {
       left: 0px;
-      bottom: -25%;
+      bottom: -15%;
       width: 20px;
       .hero__social__indicator {
         width: 20px;
@@ -131,7 +134,7 @@ const HeroStyles = styled.div`
           li {
             a {
               font-size: 1.2rem;
-              margin-bottom: 2rem;
+              margin-bottom: 1rem;
             }
           }
         }
@@ -141,7 +144,6 @@ const HeroStyles = styled.div`
       right: 0;
       width: 20px;
       gap: 1rem;
-      bottom: -10%;
       p {
         font-size: 1.3rem;
       }
@@ -159,18 +161,16 @@ export default function HeroSection() {
             <span className="hero__name">Orawee Chantravutikorn</span>
           </h1>
           <div className="hero__img">
-            <img
+            {/* <img
               src="https://res.cloudinary.com/orawee/image/upload/v1640940885/IMG_FF68CBED7018-1_r1elqy.jpg"
               alt=""
-            />
+            /> */}
           </div>
           <div className="hero__info">
             <PText>
               <div className="hero-bg">
                 {" "}
-                I have a growth mindset and a strong passion for learning. Being
-                able to combine logic and creativity to develop and solve
-                problems is fun!
+                Welcome to my portfolio
               </div>
             </PText>
             <Button btnText="see my works" btnLink="/projects" />

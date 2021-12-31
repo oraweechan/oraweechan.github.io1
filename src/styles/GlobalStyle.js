@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     --beige: #99857F;
     --teal : #52BA97;
     --pink : #D288A3;
+    --gold : #AE8B01;
     --light-blue: #143745;
   }
   html{

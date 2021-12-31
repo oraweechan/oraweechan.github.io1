@@ -7,9 +7,7 @@ const PStyle = styled.div`
   line-height: 1.2em;
   .hero-bg{
     position:relative;
-    background-color:var(--deep-dark);
-    border-radius: 15px;
-    padding: .5em
+    // background-color:var(--deep-dark);
     
 
   }
