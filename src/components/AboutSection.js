@@ -23,6 +23,9 @@ padding: 10rem 0;
         border: 2px solid var(--pink);
     }
   }
+  .smallImg {
+        display: none;
+  }
   .section-title {
     text-align: left;
   }
@@ -43,6 +46,14 @@ padding: 10rem 0;
     }
   }
   @media only screen and (max-width: 768px) {
+    .smallImg {
+        margin: 1rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        border: 2px solid var(--pink);
+
+  }
     .container {
       flex-direction: column;
       text-align: center;
@@ -70,6 +81,8 @@ padding: 10rem 0;
         width: 100%;
         text-align: center;
       }
+
+      
     }
   }
 
@@ -85,6 +98,7 @@ export default function AboutSection() {
             subheading="Let me introduce myself"
             heading="About Me"
           />
+           <img className="smallImg" src="https://res.cloudinary.com/orawee/image/upload/v1640912321/IMG_FF68CBED7018-1_hjnpkj.jpg" alt="Img" />
           <PText>
           I have a growth mindset and a strong passion for learning. Being able to combine logic and creativity to develop and solve problems is fun!
           </PText>
