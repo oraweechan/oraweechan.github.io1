@@ -40,7 +40,7 @@ const ProjectItemStyles = styled.div`
 export default function ProjectItem({
   img = {img},
   title = 'Project Name',
-  desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  desc = 'desc',
 }) {
   return (
     <ProjectItemStyles>
