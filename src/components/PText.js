@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const PStyle = styled.div`
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
   font-size: 1.8rem;
   line-height: 1.2em;
@@ -21,7 +21,7 @@ export default function PText({ children }) {
   // console.log(props)
   return (
     <PStyle>
-      <div>
+      <div className="para">
         <p>{children}</p>
       </div>
     </PStyle>

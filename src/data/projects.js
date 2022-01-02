@@ -12,7 +12,7 @@ const projects = [
       id: uuidv4(),
       title: 'Travelgram',
       desc:
-        'A fullstack web application that will allow people to share their travel experience to a community of other travellers. Created with React and Material UI for frontend, Express and MongoDB for backend.',
+        'A fullstack web application that will allow people to share their travel experience to a community of other travelers. Created with React and Material UI for frontend, Express and MongoDB for backend.',
       img: 'https://user-images.githubusercontent.com/90231932/144096351-cc57a32a-1999-4556-a9a5-6a8e8fe94e2b.png',
     },
     {
