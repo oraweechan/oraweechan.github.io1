@@ -87,9 +87,12 @@ export default function About() {
           <div className="other__info">
               <div className="other__info__item">
                   <h1>My Skills</h1>
-                  <AboutItem title="Languages" items={['JavaScript', 'HTML', 'CSS', 'Python']}/>
-                  <AboutItem title="Libraries" items={['React', 'Bootstrap', 'MaterialUI', 'jQuery']}/>
-                  <AboutItem title="Frameworks" items={['Express', 'Mongoose', 'Django']}/>
+                  <AboutItem title="Languages" items={['JavaScript', 'Python']}/>
+                  <AboutItem title="Frontend" items={['React', 'HTML', 'CSS', 'Bootstrap', 'MaterialUI', 'jQuery']}/>
+                  <AboutItem title="Backend" items={['Express', 'Mongoose', 'Django']}/>
+                  <AboutItem title="Database" items={['MongoDB', 'PostgreSQL', 'Firebase']}/>
+                  <AboutItem title="Other" items={['Github', 'Git', 'VSCode', 'Adobe Photoshop']}/>
+
               </div>
           </div>
           <ContactBanner/>
